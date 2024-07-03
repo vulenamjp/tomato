@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={roboto.className}>
         <div className="header">
-          <p>This is the header content.</p>
+          <p>Kiddy Planner</p>
         </div>
         <div className="container">
           <div className="sidebar">
@@ -32,7 +32,7 @@ export default function RootLayout({
           <div className="content">{children}</div>
         </div>
         <div className="footer">
-          <p>This is the footer content.</p>
+          <p>Copyright &copy; KiddyPlanner </p>
         </div>
       </body>
     </html>
