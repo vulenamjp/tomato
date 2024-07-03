@@ -69,9 +69,23 @@ body {
   padding: 5px;
   border-bottom: 1px solid #ddd;
   height: 3em;
+  background-size: auto 32px;
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.bg-pikachu {
+  background-image: url('/_pikachu.png');
+}
+.bg-pikachu-32 {
+  background-image: url('/_pikachu.png');
+  background-size: auto 32px;
+}
+.bg-zubat {
+  background-image: url('/_zubat.png');
 }
 
 .time {
+  padding-left: 32px;
   flex-basis: 30%;
   text-align: justify;
 }
@@ -130,7 +144,7 @@ input:checked + .slider:before {
 .header {
   background-color: #007acc;
   /* Màu xanh */
-  color: #fff !important;
+  color: #060303 !important;
   padding: 10px;
   text-align: center;
   height: 3em;
