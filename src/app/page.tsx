@@ -11,7 +11,10 @@ export default function Home() {
   return (
     <main className="">
       <div className="task">
-        <div className="time">07:00-07:10</div>
+        <div className="time">
+          <span className="time-span">07:00</span>-
+          <span className="time-span">07:10</span>
+        </div>
         <div className="content">Morning workout</div>
         <div className="switch">
           <label className="switch">
@@ -21,21 +24,27 @@ export default function Home() {
         </div>
       </div>
       <div className="task">
-        <div className="time">07:10-07:20</div>
+        <div className="time">
+          <span className="time-span">07:10</span>-
+          <span className="time-span">07:50</span>
+        </div>
         <div className="content">Breakfast</div>
         <div className="switch">
           <label className="switch">
-            <input type="checkbox"/>
+            <input type="checkbox" />
             <span className="slider round"></span>
           </label>
         </div>
       </div>
       <div className="task">
-        <div className="time">08:00-08:30</div>
+        <div className="time">
+          <span className="time-span">08:00</span>-
+          <span className="time-span">08:20</span>
+        </div>
         <div className="content">Go to school</div>
         <div className="switch">
           <label className="switch">
-            <input type="checkbox"/>
+            <input type="checkbox" />
             <span className="slider round"></span>
           </label>
         </div>
